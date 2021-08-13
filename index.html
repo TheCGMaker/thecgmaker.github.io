@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheCGMaker</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="hero">
+    <nav>
+        <div data-tab-target="#home" class="tab">
+            <h2 class="menu-logo">TheCGMaker</h2>
+        </div>
+        <ul class="tabs">
+            <li data-tab-target="#home" class="active tab">Home</li>
+            <li data-tab-target="#download" class="tab">Download</li>
+            <li data-tab-target="#about" class="tab">About</li>
+        </ul>
+        <a href="https://www.youtube.com/c/TheCGMaker" target="_blank">
+            <img class="follow" src="Asset/Youtube icon.png" alt="Follow Me">
+        </a>
+        
+    </nav>
+    <div class="text-container-h">
+        <div id="home" data-tab-content class="active">
+            <h1>Welcome</h1>
+            <p>This is a website that you can download my projects here. Click on Download tab to download my projects.
+                <div class="go-download">
+                    <p data-tab-target="#download" class="tab">Go Download <img class="arrow" src="Asset/arrow.png"></p>
+                </div>
+            </p>
+            <img class="image" src="Asset/Real Rock and Grass.png" alt="Grass">
+        </div>
+    </div>
+    <div class="text-container-d">
+        <div id="download" data-tab-content>
+            <h1>Download</h1>
+            <p>Download My Projects Here.</p>
+            <br><img class="torch" src="Asset/Torch.png" alt="Torch"></br>
+            <p>Torch.zip</p>
+            <br><a href="Asset/Torch.rar" download>Download</a></br>
+        </div>
+    </div>    
+    <div class="text-container-a">
+        <div id="about" data-tab-content>
+            <h1>About</h1>
+            <p>This website is about 3D, GCI, Blender.<br>TheCGMaker2021</p>
+        </div>
+        
+    </div>
+        
+</div>
+    
+</body>
+</html>

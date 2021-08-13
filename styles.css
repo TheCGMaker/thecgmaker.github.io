@@ -1,0 +1,155 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(255, 255, 255);
+    color: floralwhite;
+}
+
+.hero{
+    background: linear-gradient(to right, rgb(255, 85, 94), red);
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-logo{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    transition: 0.5s;
+    margin: 0 20px;
+    padding: 8px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+nav ul li:hover{
+    transition: 0.5s;
+    background: rgb(255, 255, 255);
+    color: red;
+    border-radius: 15px;
+}
+
+nav ul li.active{
+    transition: 0.5s;
+    background: linear-gradient(to right, rgb(255, 95, 95), rgb(255, 38, 38));
+    border-radius: 15px;
+    border-top: 1px solid rgb(255, 255, 255, 0.5);
+    border-left: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.text-container-h{
+    position: relative;
+    color: #000;
+    max-width: 400px;
+    margin-top: 7%;
+    margin-left: 40%;
+    padding-left: 5%;
+}
+.text-container-d{
+    align-items: center;
+    text-align: center;
+    color: #000;
+    margin-top: -50px;
+}
+.text-container-a{
+    position: relative;
+    text-align: center;
+    color: #000;
+    padding-top: 150px;
+
+}
+.text-container-d a{
+    background: linear-gradient(to right, rgb(141, 181, 255), rgb(180, 68, 255));
+    color: floralwhite;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.text-container-d a:hover{
+    font-size: large;
+    background: linear-gradient(to right, rgb(244, 224, 255), rgb(0, 153, 255));
+    padding: 7px;
+    box-shadow: 2px 2px 5px darkgray;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.go-download{
+    text-align: center;
+    background: linear-gradient(to right, lightblue, blue);
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 5px;
+    width: 140px;
+    border-radius: 20px;
+}
+.go-download:hover{
+    transition: 0.5s;
+    width: 160px;
+    background: linear-gradient(to right, lightblue, rgb(79, 79, 255));
+}
+
+.image{
+    transition: 0.5s;
+    position: relative;
+    top:-150px;
+    left: -350px;
+    width: 250px;
+}
+.image:hover{
+    transition: 0.3s;
+    width: 260px;
+    box-shadow: -10px 10px 20px rgb(0, 0, 0, 0.5);
+}
+.torch{
+    padding: 10px;
+    width: 150px;
+}
+.follow{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.arrow{
+    transition: 0.5s;
+    width: 15px;
+    display: none;
+}
+.go-download:hover .arrow{
+    display: inline;
+    transition: 0.5s;
+}

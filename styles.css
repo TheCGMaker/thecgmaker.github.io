@@ -33,9 +33,9 @@ nav{
     padding: 20px 8%;
 }
 
-nav .menu-logo{
-    width: 25px;
-    margin-right: 20px;
+nav a .thecgmaker{
+    width: 180px;
+    margin-right: 5px;
     cursor: pointer;
 }
 nav ul {
@@ -43,30 +43,23 @@ nav ul {
     text-align: right;
 }
 nav ul li{
-    transition: 0.5s;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 8px;
     display: inline-block;
-    list-style: none;
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 nav ul li:hover{
-    transition: 0.5s;
     background: rgb(255, 255, 255);
     color: red;
-    border-radius: 15px;
 }
 
 nav ul li.active{
-    transition: 0.5s;
-    background: linear-gradient(to right, rgb(255, 95, 95), rgb(255, 38, 38));
-    border-radius: 15px;
-    border-top: 1px solid rgb(255, 255, 255, 0.5);
-    border-left: 1px solid rgb(255, 255, 255, 0.5);
+    background: rgb(255, 255, 255);
+    color: red;
 }
 
 .text-container-h{
@@ -91,25 +84,20 @@ nav ul li.active{
 
 }
 .text-container-d a{
-    background: linear-gradient(to right, rgb(141, 181, 255), rgb(180, 68, 255));
+    background: rgb(0, 132, 255);
     color: floralwhite;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-    transition: 0.5s;
+    padding: 8px;
+    border-radius: 7px;
 }
 .text-container-d a:hover{
-    font-size: large;
-    background: linear-gradient(to right, rgb(244, 224, 255), rgb(0, 153, 255));
-    padding: 7px;
-    box-shadow: 2px 2px 5px darkgray;
-    border-radius: 5px;
-    transition: 0.5s;
+    background: rgb(173, 183, 230);
+    border-radius: 7px;
 
 }
 .go-download{
     text-align: center;
-    background: linear-gradient(to right, lightblue, blue);
+    background: linear-gradient(to bottom, rgb(173, 195, 230), rgb(79, 79, 255));
     color: white;
     cursor: pointer;
     margin-top: 30px;
@@ -120,7 +108,7 @@ nav ul li.active{
 .go-download:hover{
     transition: 0.5s;
     width: 160px;
-    background: linear-gradient(to right, lightblue, rgb(79, 79, 255));
+    background: linear-gradient(to bottom, rgb(173, 195, 230), rgb(79, 79, 255));
 }
 
 .image{
@@ -140,8 +128,7 @@ nav ul li.active{
     width: 150px;
 }
 .follow{
-    width: 30px;
-    border-radius: 5px;
+    width: 25px;
 }
 
 .arrow{
